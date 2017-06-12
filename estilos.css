@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    padding-top: 70px;
+    background-color: #B34212;
+}
+
+
+
+ li a{
+     font-family: 'Amatic SC', cursive;
+     font-weight:bold;
+     font-size: 20px;
+
+     
+}
+
+div div.panel{
+     background-color: #0B309C;    
+     color: #fff;
+}
+
+div div.panel div.panel-heading h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+
+div.navbar-header a{
+     font-family: 'Amatic SC', cursive;
+     font-weight:bold;
+     font-size: 25px;
+}
+
+
+form label{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    
+    
+}
+
+
+form input[type="text"].form-control{
+     font-family: 'Dosis', sans-serif;
+     font-weight:bold;
+     font-size: 20px;
+     color:#0B309C;
+     border-radius: 8px 8px 8px 8px;
+}
+
+form input[type="email"].form-control{
+     font-family: 'Dosis', sans-serif;
+     font-weight:bold;
+     font-size: 20px;
+     color: #0B309C;
+     border-radius: 8px 8px 8px 8px;
+}
+
+    
+ 
+
+
+
+form button[type="submit"].btn-default{
+     font-family: 'Dosis', sans-serif;
+     font-weight:bold;
+     background-color:#0849CA;
+     color: #fff;
+     font-size: 15px;
+     margin-left: 5px;
+     padding-left: 10px;  
+     padding-bottom: 10px;
+     width: 8em;
+     height: 38px;
+}
+  
+
+div.form-group button[type="submit"]#registro{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    width: 200px;
+    margin-left: 40%;
+    background-color: #0B309C;
+    color: #fff;
+}
+div.form-group button[type="submit"]#registro:hover{
+    background-color: #EDEDF0;  
+    color: #111112;
+}
+
+
+nav div.navbar-header:hover a.navbar-brand{
+    
+    background:#47494D;
+    color: #fff;
+    height: 55px;
+    
+}
+div#navbar-ex1-collapse ul li:hover{
+      background:#47494D;
+      color: #fff;
+      height: 55px;
+}
+
+.menu-pie{
+   
+    height: 80px;
+    margin-left: 8px;
+    width:640px;
+    top: 150px;
+    position: fixed;
+    
+ 
+}
+
+.menu-pie ul li a{
+     margin-top: 5px;
+     background-color: #4B493F;
+     color: #fff;
+     font-family: 'Dosis', sans-serif;
+     font-size: 13px;
+     font-weight: 100;
+}
+.menu-pie ul li a:hover{
+     margin-top: 5px;
+     background-color: #aaaaaa;
+     color: #fff;
+}
+
+
+div  div.panel-heading h1{
+     font-family: 'Dosis', sans-serif;
+     font-size: 30px;
+     font-weight: 900;
+     
+}
+
+div div.panel-body{
+    background-color: #E8CB37;
+
+
+}
+
+
+div div#scroll{
+    max-height: 450px;
+    border: 1px solid #3F6EBB;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+div div#scroll form.form-horizontal{
+    height: 850px;
+}
+
+
+
+
+div div.radio label{
+       font-family: 'Dosis', sans-serif;
+       font-size: 14px;
+       font-weight: 200;
+       float: right;
+       margin-right: 120px;
+       margin-left: -49px;
+}
+
+
+
+
+div fieldset legend{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    width: 80%;
+}
+
+
+
+form  input[type="text"].form-control {
+       margin-left: 89px;
+    
+}
+
+form input[type="email"].form-control{
+     margin-left: -1px;
+     
+}
+
+form select.form-control{
+    margin-left: 90px;
+ 
+}
+
+form label{
+    margin-left: 150px;
+}
+
+
+
+
+div.form-group div.col-sm-5 select.form-control{
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+div#validarrut{
+    
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+}
+
+div#validarnombre{
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+div#validarapellidos{
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+div#validartelefono
+{
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+div#validardireccion
+{
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+div#validarcorreo{
+    
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+div#validaredad{
+    
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+    
+    
+}
+
+div#validarcomuna{
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+div#validarcarrera{
+    display: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+    
+}
+
+
+@media(max-width:768px){
+      
+    
+    div.navbar-header:hover a.navbar-brand{
+        
+        width: 620px;
+    }
+    
+    
+}
+
+
+@media(min-width:540px){
+      div.navbar-header a.navbar-brand{
+       
+        width: 300px;
+    }
+    
+    
+    
+}
+
+@media(width:300px){
+      
+    
+     
+    div.navbar-header:hover a.navbar-brand{
+        display: block;
+        width: 80px;
+    }
+    
+}
+
+
+    

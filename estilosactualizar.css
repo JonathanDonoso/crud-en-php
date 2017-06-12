@@ -1,0 +1,231 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-color: #8389BB;
+}
+
+div.panel div.panel-heading{
+    background-color: #B1ECAB;
+    border: 5px solid #B1ECAB;
+}
+
+div.panel div.panel-heading h1{
+    
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: #0F6E05;
+}
+
+div.panel div.panel-body{
+    background-color: #B6D5E6;
+    border: 5px solid #B6D5E6;
+}
+
+
+div.panel{
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+
+div.panel div.panel-body form.form-horizontal div.form-group button[type="submit"]#actualizar{
+    
+    width: 20%;
+    margin:0 auto;
+    background-color: #8389BB;
+    color:#fff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+div.panel div.panel-body form.form-horizontal div.form-group button[type="submit"]#actualizar:hover{
+    background-color: rgb(48,51,48);
+}
+
+div.panel div.panel-body form.form-horizontal div.form-group div.radio label.radio-inline{
+     
+     margin-left:50px;
+     padding-right:-10px;
+}
+
+ div.panel-body form.form-horizontal div.form-group input[type="text"].form-control{
+    
+     margin-left: 200px;
+
+}
+
+div.panel-body form.form-horizontal div.form-group div kbd#kbd{
+    
+      margin-left: 100px;
+  
+}
+
+div.panel-body form.form-horizontal div.form-group div kbd#kbdcorreo{
+    margin-left: 100px;
+}
+
+
+div.panel-body form.form-horizontal div.form-group select#carrera{
+     margin-left: 200px;
+}
+
+
+div.panel-body form.form-horizontal div.form-group input[type="email"].form-control{
+       margin-left: 200px;
+}
+
+
+div.panel-body form.form-horizontal div.form-group input[type="text"].form-control:hover{
+      border: 3px solid #366A85;
+      cursor:alias;
+}
+
+div.panel-body form.form-horizontal div.form-group select#carrera:hover{
+      border: 3px solid #366A85;
+      cursor: alias;
+}
+
+
+div.panel-body form.form-horizontal div.form-group input[type="email"].form-control:hover{
+        border: 3px solid #366A85;
+        cursor: alias;
+}
+
+
+div.panel div.panel-body form.form-horizontal div.form-group label{
+   
+   font-family:'Dosis', cursive;
+   font-weight: 500;
+   color: #fff;    
+   font-size: 18px; 
+   left: 50px;    
+}
+
+div.panel div.panel-body form.form-horizontal div.form-group label#situacionlabel{
+    top:5px;
+    left: 40px;
+    
+}
+
+div.panel div.panel-body form.form-horizontal div.form-group  div.radio label{
+    color: black;
+    font-family: 'Dosis', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+div.container div.menu-pie{
+    position: fixed;
+    float: right;
+    margin-left: 800px;
+    top:18px;
+}
+
+div.container div.menu-pie ul li a{
+     margin-top: 5px;
+     background-color: #4B493F;
+     color: #fff;
+     font-family: 'Dosis', sans-serif;
+     font-size: 13px;
+     font-weight: 100;
+}
+
+div.container div.menu-pie ul li a:hover{
+     background-color: #aaaaaa;
+     color: #fff;
+}
+
+
+div#validarrut{
+  
+   display: none;
+   text-decoration: underline;
+    font-weight: 800;
+    color: red;
+    font-family: 'Amatic SC', cursive;  
+
+}
+
+div#validarnombres{
+    
+    display: none;
+    text-decoration: underline;
+    font-weight: 800;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+
+div#validarapellidos{
+    display: none;
+    text-decoration: underline;
+    font-weight: 800;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+    
+}
+
+div#validarcarrera{
+    
+    display: none;
+    text-decoration: underline;
+    font-weight: 800;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+div#validarcorreo{
+    
+    display: none;
+    text-decoration: underline;
+    font-weight: 800;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

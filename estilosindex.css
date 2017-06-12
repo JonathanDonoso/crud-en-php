@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+     background-color: #F1983E;
+     font-family: 'Dosis', sans-serif;
+     min-height: 100vh;
+     flex-wrap: wrap;
+    
+}
+
+
+div.container nav#navegacion{
+    background-color: #4B493F;
+    height: 80px;
+}
+
+
+div.navbar-header a.navbar-brand{
+    color: whitesmoke;
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+div.navbar-header a.navbar-brand:hover{
+    color: #D0CEC3;
+}
+
+
+div ul.navbar-nav li:hover{
+   
+     background-color: #D0CEC3;
+     color:black;
+     font-weight: 700;
+     padding-top: 12px;
+     padding-bottom:5px;
+}
+
+
+
+div ul.navbar-nav li{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 40px;
+}
+
+
+div nav div.navbar-collapse ul.navbar-nav li a{
+     
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
+div form div input[type="text"]#busqueda{
+    
+     font-size: 15px;    
+     color: #4B493F;
+     width: 400px;
+     padding-right: 20px;
+     margin-right: 300px;
+     margin-top: 150px;
+}
+
+
+ div form button[type="submit"].btn-default{
+    background-color: #4B493F; 
+    width: 110%; 
+    margin-top: 147px;  
+    margin-left: -380%;  
+    color: whitesmoke;
+    font-size: 14px; 
+}
+
+
+div.table-responsive h2{
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #7B736D;
+    margin-top: 5px;
+}
+
+
+ 
+div.panel-body{
+    max-height: 300px;
+    background-color: #D86D08;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+
+div.table-responsive table#mostrar{
+     width: 90%;
+     margin-left: 60px;
+     margin-top: 1px;
+     position:static;
+    
+}
+
+
+div.table-responsive table#mostrar thead th{
+    background-color: #AB3;
+    padding: 8px 8px 8px 10px;    
+    color: #fff;     
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center; 
+    margin-right: 15px;
+}
+
+div.table-responsive table#mostrar tbody tr td{
+    font-weight: 300;
+    font-size:13px; 
+    text-align: center;
+}
+
+
+ a#pdf{
+    float: right;
+    margin-right: 60px;
+    text-decoration: none;
+    font-size: 17px;   
+}
+
+a#pdf:hover{
+   background-color: #F80800;
+}
+
+
+
+
+
+/*footer{
+    align-self: flex-end;
+    background-color: rgba(120,120,120,120);
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    position: fixed;
+}  */
+
+
+
+div.footer{
+     background-color: rgba(120,120,120,120);
+     width: 100%;
+     height: 70px;
+     text-align: center;
+     align-self: flex-end;
+}
+
+div.footer cite{
+    color:black;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 15px;
+    margin-top:10px;
+}
+
+
+@media(max-width:768px){
+    
+        
+    div.container nav#navegacion div.navbar-collapse{
+    background-color: #52503C;
+    height: 260px;
+    overflow-y: hidden;
+    text-align: center;
+    display: block;    
+              }
+    
+    
+    
+       div form button[type="submit"].btn-default{
+          width: 100px;
+          margin-top:-60px;
+          margin-left: 220px;   
+    }
+    
+      div.container nav#navegacion a.navbar-brand{
+        display: none;
+    }
+    
+    div.container nav#navegacion{
+        height: 50px;
+        border-bottom-style: none;
+    }
+    
+    
+} 
+
+
+@media(max-width:400px){
+    
+
+    
+    div form button[type="submit"].btn-default{
+        margin-left: 210px;
+        margin-top: -57px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
